@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Student<span>.</span></div>
+  <nav>
+    <button class="active">Live Tracker</button>
+    <button>Students</button>
+    <button>Reports</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <p class="tag"> Tha</p>
+  <h1>Attendence Tracker,For CSE DEPARMENT </h1>
+  <p class="sub">Track attendance, enrollments, and record changes the moment they happen — no refresh required.</p>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <h4>Total Students</h4>
+    <h2 id="totalStudents">78</h2>
+  </div>
+  <div class="card">
+    <h4>Present Today</h4>
+    <h2 id="presentToday">60</h2>
+    <p class="green">75% attendance</p>
+  </div>
+  <div class="card">
+    <h4>New Enrollments</h4>
+    <h2 id="newEnrollments">9</h2>
+  </div>
+  <div class="card">
+    <h4>Live Updates</h4>
+    <h2 id="liveUpdates">65</h2>
+  </div>
+</section>
+
+<section class="main">
+  <div class="activity">
+    <div class="section-header">
+      <h3>IDA:THAKUR LECTURE </h3>
+      <button id="toggleBtn">Pause</button>
+    </div>
+    <ul id="activityList"></ul>
+  </div>
+
+  <div class="roster">
+    <h3>Today's Roster</h3>
+    <ul id="rosterList"></ul>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

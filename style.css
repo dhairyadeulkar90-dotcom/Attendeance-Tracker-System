@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0f19;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #0e1322;
+  border-bottom: 1px solid #222;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #7c6cff;
+}
+
+nav button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+nav .active {
+  background: #1a1f35;
+  color: #fff;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero span {
+  color: #7c6cff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.card {
+  background: #11172a;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #222;
+}
+
+.card h2 {
+  font-size: 32px;
+}
+
+.green {
+  color: #32d296;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 40px;
+}
+
+.activity, .roster {
+  background: #11172a;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #222;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #222;
+}
+
+.status {
+  float: right;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.present { background: #1f8f5f; }
+.absent { background: #8f1f2f; }
+.late { background: #8f6f1f; }
